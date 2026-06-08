@@ -1,0 +1,41 @@
+﻿--- PAGE 1 ---
+Aditya Roshan Dash
+ΓÖéphone+91-8984780225 /envelΓîópeadityaroshan1473@gmail.com
+EDUCATION
+GIET University, Gunupur, India Sep 2022 ΓÇô May 2026
+B.Tech in Computer Science CGPA: 7.2
+KC Public School, Berhampur Mar 2020 ΓÇô Mar 2022
+Intermediate Secondary Percentage: 82%
+De Paul School, Berhampur Nov 2018 ΓÇô Mar 2020
+Matriculation Percentage: 92%
+SKILLS
+ΓÇó Languages: Java, JavaScript, C
+ΓÇó F rameworks/Libraries:Tailwind, Bootstrap, NodeJS, ExpressJS, EJS
+ΓÇó T ools/Platforms:Linux, Docker,Git, A WS Lambda, A WS DynamoDB, A WS S3, portainer, Redis
+ΓÇó IAM: WSO2 Identity Server, Active Directory Integration, User Federation & Caching, Keycloak
+ΓÇó Databases: MongoDB, MySQL, Oracle, MSSQL
+PROJECTS & OPEN SOURCE
+Enterprise IAM Deployment & Identity Integration (Centroxy) WSO2, Keycloak, Docker, Active Directory , Linux
+ΓÇô Designed and deployed enterprise-grade IAM solutions using WSO2 Identity Server v7.2and Keycloak.
+ΓÇô Configured and implemented multiple authentication mechanismsfor internal and federated users.
+ΓÇô Integrated Active Directory with WSO2, enabling user federation, caching, and seamless authentication flows.
+ΓÇô Designed custom user journeys in Keycloakbased on client-specific identity attributes and access policies.
+ΓÇô Deployed IAM systems across multiple regions and environments, ensuring high availability and reliability.
+ΓÇô Containerized and automated deployments using Docker and Portainer templatesfor scalable infrastructure.
+ΓÇô Configured secure HTTPS access behind load balancersand managed infrastructure via SSH-based remote
+administration.
+GIETU App - Backend Docker, Redis, Express
+ΓÇô Implemented quiz features using Gemini API in NodeJS used by GIETU students (1400+ users).
+ΓÇô Designed and implemented a caching mechanismto store and reuse quiz questions, reducing redundant API requests.
+Inventory Management App Django, A WS S3, Lambda, DynamoDB
+ΓÇô Developed a multi-user web application supporting full CRUD operations during a summer cohort.
+ΓÇô Used Django for backend, A WS S3 for static content, A WS Lambda for API hosting, and DynamoDB for inventory &
+customer records.
+URL Shortener (TTL Fix) Express, Redis
+ΓÇô Fixed TTL handling in Redis caching to improve memory usage and automatically clear stale queries.
+ΓÇô Enhanced type safety validation across components.
+Portfolio Website MongoDB, EJS, Mongoose, Express
+ΓÇô Developed an in-house blogging module integrated into personal portfolio website.
+CERTIFICATIONS
+ΓÇó Cloud Computing Certified by NPTEL
+ΓÇó Oracle Cloud Infrastructure 2025 Certified Generative AI Professional
