@@ -443,8 +443,42 @@ a:focus-visible {
   letter-spacing: 0.08em;
 }
 
+/* ── Mobile Nav ────────────────────────────────────────── */
+.mobile-nav {
+  display: none;
+}
+
 /* ── Responsive ────────────────────────────────────────── */
 @media (max-width: 768px) {
+  body {
+    padding-bottom: calc(5.5rem + env(safe-area-inset-bottom));
+  }
+
+  .site-header {
+    border-bottom-color: rgba(134, 134, 139, 0.18);
+  }
+
+  .site-nav {
+    display: none;
+  }
+
+  .header-inner {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .nav-links {
+    gap: 1.25rem;
+  }
+
+  .hero {
+    padding-block: clamp(4rem, 12vw, 6rem) 3rem;
+  }
+
+  .hero-title {
+    font-size: clamp(2.5rem, 14vw, 4rem);
+  }
+
   .culture-grid {
     grid-template-columns: 1fr;
   }
@@ -482,6 +516,43 @@ a:focus-visible {
   .achievement-list li {
     gap: 1.25rem;
   }
+
+  .mobile-nav {
+    position: fixed;
+    left: 1rem;
+    right: 1rem;
+    bottom: calc(1rem + env(safe-area-inset-bottom));
+    z-index: 300;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.5rem;
+    padding: 0.55rem;
+    border-radius: 22px;
+    border: 1px solid var(--border);
+    background: rgba(10, 10, 10, 0.92);
+    backdrop-filter: blur(18px);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.32);
+  }
+
+  .mobile-nav a {
+    min-height: 2.75rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--muted);
+    border: 1px solid transparent;
+  }
+
+  .mobile-nav a:focus-visible,
+  .mobile-nav a:active {
+    border-color: var(--accent);
+    color: var(--text);
+  }
 }
 
 @media (max-width: 480px) {
@@ -492,10 +563,6 @@ a:focus-visible {
 
   .nav-links {
     gap: 1.25rem;
-  }
-
-  .hero-title {
-    font-size: clamp(2.5rem, 14vw, 3.5rem);
   }
 
   .project-header {
@@ -514,5 +581,14 @@ a:focus-visible {
 
   .stack-col:last-child {
     border-bottom: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal,
+  .reveal.is-visible {
+    transition: none !important;
+    transform: none !important;
+    opacity: 1 !important;
   }
 }
